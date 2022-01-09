@@ -1,0 +1,9 @@
+
+
+
+
+
+Paradigms:
+    - Event-Driven
+    - Object-Oriented (common opinion - reduce complexity, code reuse and easier maintenance, faster development. Suitable for creating interfaces but not a hard and fast rule)
+    - Functional/Procedural
