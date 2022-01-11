@@ -1,0 +1,58 @@
+Questions
+1- What is the difference between a class and an object?
+    A class is a specific object that is instantiated with a specific
+    prototype that defines each instance of the class.
+    An object can refer to any type of data structure that holds
+    information as a reference type but there is no requirement
+    for a prototype to also exist.
+
+2- What does instantiating mean?
+    Instantiating means calling the constructor of class in order to
+    create an instance of the class with the information required by its prototype.
+
+3- What is the difference between stack and heap memory? How are they managed?
+    A stack will hold short-lived variables and primitive data types .
+    A heap will hold reference types including classes. If an object is unused
+    for a time then it will be deleted from the heap through the automatic
+    process of garbage collection.
+    De-allocation is automatic and happens when the program exits.
+    All items are removed from the stack and any unused items are
+    removed from the heap.
+
+4- What are the problems of procedural code?
+    The Procedural paradigm does not provide a means of abstracting
+    the contents or implementation details of the code away from the user.
+    The procedural paradigm does not promote or easily allow for code reuse.
+    Lastly in terms of use, the procedural paradigm does not provide or
+    necessarily promote the use of a simple interface for users.
+ -How does object-oriented programming help solve these problems?
+    Object oriented programming promotes the re-use of code, provides and promotes
+    the use of abstraction to hide implementation details from users, ensured
+    the integrity of data through encapsulation and provides a simple way
+    for users to interface with the program.
+5- What is encapsulation?
+    The grouping of data and procedures tha to operate on that data.
+    This allows the program to hide the structure and prevents users from
+    accessing the values stored.
+6- Why should we declare fields as private?
+    Fields should be declared private to make them inaccessible to the user.
+    The validity and integrity of the data stored in a private field is maintained by
+    preventing its modification from the user.
+7- What is abstraction?
+    Abstraction is the way in which implementation details are hidden from users.
+    Simple interfaces are provides to promote ease of use for users.
+8- What is coupling?
+    When classes are dependant on one anothe either for methods or data values.
+9- How does the abstraction principle help reduce coupling?
+    Disparate classes and instances of classes can rely on interfaces rather that
+    direct and interconnected relationships with one another.
+10- What are constructors?
+    Constructors are specific methods that create insances of classes.
+    Classes declared without constructors will have a default constructor method.
+11- What is method overloading?
+    Method overloading is a form of polymorphism. Child classes can inherit from
+    parent classes but overloading allows for specific methods to be instantiated
+    with different requirements from the values passed as parameters.
+12- What are static methods?
+    Static method are functions specific to classes that are able to be instantiated
+    without creating a new object.
